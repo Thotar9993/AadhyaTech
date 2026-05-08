@@ -3,55 +3,25 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { cardVariants, hoverLift, sectionVariants, sectionViewport } from '../common/motionPresets';
 
-import gartGroupLogo from '../../assets/clients/Gart_group.jpeg';
-import newmarketHolidaysLogo from '../../assets/clients/Newmarket Holidays.png';
-import paradiseLogo from '../../assets/clients/Paradise.png';
-import relianceLogo from '../../assets/clients/Reliance.jpeg';
+import ibexLogo from '../../assets/clients/IBEX.png';
+import neoTechLogo from '../../assets/clients/Neo-Tech.png';
 import saasphireLogo from '../../assets/clients/Saasphire.png';
-import techCubeLogo from '../../assets/clients/Tech_Cube.jpeg';
-import thePalmsLogo from '../../assets/clients/The_Palms.jpeg';
-import webfxmeLogo from '../../assets/clients/Webfxme.png';
 
 export const CLIENTS_DATA = [
   {
-    name: 'The Palms Hotel',
-    description: 'Hospitality and guest experience brand.',
-    logo: thePalmsLogo,
+    name: 'IBEX',
+    description: 'Accountants and financial advisors.',
+    logo: ibexLogo,
   },
   {
-    name: 'Newmarket Holidays',
-    description: 'Travel and hospitality brand.',
-    logo: newmarketHolidaysLogo,
-  },
-  {
-    name: 'Reliance Nippon Life Insurance',
-    description: 'Insurance and financial services company.',
-    logo: relianceLogo,
+    name: 'Neo Technology',
+    description: 'Technology solutions and services company.',
+    logo: neoTechLogo,
   },
   {
     name: 'Saasphire',
     description: 'SaaS-focused product and platform company.',
     logo: saasphireLogo,
-  },
-  {
-    name: 'Paradise Biryani Pointe',
-    description: 'Food and restaurant chain.',
-    logo: paradiseLogo,
-  },
-  {
-    name: 'Tech Cube',
-    description: 'Security technology and sales solutions.',
-    logo: techCubeLogo,
-  },
-  {
-    name: 'Gart Group',
-    description: 'Innovation-led digital transformation partner.',
-    logo: gartGroupLogo,
-  },
-  {
-    name: 'Webfxme',
-    description: 'UX/UI and web design company.',
-    logo: webfxmeLogo,
   },
 ];
 
