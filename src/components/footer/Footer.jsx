@@ -24,7 +24,7 @@ function Footer() {
 						<h3 className="text-lg font-semibold mb-3">Aadhya Tech</h3>
 					<p className="text-sm text-white/80 mb-4">Innovate. Integrate. Elevate.</p>
 						<p className="text-sm mb-2 text-white/80">We design and build secure, scalable software and cloud platforms that help organizations accelerate digital transformation.</p>
-						<p className="text-sm mb-1 text-white/80">Email: <a href="mailto:info@aadhyatech.com" className="text-blue-300 hover:text-blue-200 transition-colors">info@aadhyatech.com</a></p>
+						<p className="text-sm mb-1 text-white/80">Email: <a href="mailto:info@aadhyatech.co.uk" className="text-blue-300 hover:text-blue-200 transition-colors">info@aadhyatech.co.uk</a></p>
 						<p className="text-sm text-white/80">Phone: +44 7376 472095</p>
 					</motion.div>
 
@@ -35,7 +35,6 @@ function Footer() {
 							<li><Link to="/services" onClick={handleQuickLinkNavigation} className="text-white/80 hover:text-blue-200 transition-colors">Services</Link></li>
 							<li><Link to="/our-team" onClick={handleQuickLinkNavigation} className="text-white/80 hover:text-blue-200 transition-colors">Leadership Team</Link></li>
 							<li><Link to="/our-clients" onClick={handleQuickLinkNavigation} className="text-white/80 hover:text-blue-200 transition-colors">Our Clients</Link></li>
-							<li><Link to="/careers" onClick={handleQuickLinkNavigation} className="text-white/80 hover:text-blue-200 transition-colors">Careers</Link></li>
 							<li><Link to="/contact" onClick={handleQuickLinkNavigation} className="text-white/80 hover:text-blue-200 transition-colors">Contact Us</Link></li>
 						</ul>
 					</motion.div>

@@ -69,8 +69,8 @@ function About() {
           <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-6">Get in touch</h3>
           <p className="text-gray-700 text-lg">
             Interested in working together? Email us at{' '}
-            <a href="mailto:contact@aadhyatech.com" className="text-blue-600 hover:text-blue-700 font-medium transition-colors">
-              info@aadhyatech.com
+            <a href="mailto:info@aadhyatech.co.uk" className="text-blue-600 hover:text-blue-700 font-medium transition-colors">
+              info@aadhyatech.co.uk
             </a>{' '}
             or{' '}
             <Link to="/contact" state={{ openForm: true }} className="inline-block mt-4 px-6 py-3 text-white rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 transition-all duration-200 shadow-lg">

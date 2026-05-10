@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { useLocation } from 'react-router-dom'
 import OfficesSection from './OfficesSection';
-import Careers from './Careers';  
 import { cardVariants, sectionVariants, sectionViewport } from '../common/motionPresets'
 
 function Contact() {
@@ -23,7 +22,7 @@ function Contact() {
     const email = document.getElementById('email')?.value || ''
     const name = document.getElementById('name')?.value || ''
 
-    window.location.href = `mailto:info@aadhyatech.com?subject=Website enquiry from ${name}&body=${encodeURIComponent(message)}\n\nReply to: ${email}`
+    window.location.href = `mailto:info@aadhyatech.co.uk?subject=Website enquiry from ${name}&body=${encodeURIComponent(message)}\n\nReply to: ${email}`
   }
 
   return (
@@ -40,8 +39,7 @@ function Contact() {
         </motion.h1>
         <motion.div variants={cardVariants} className="bg-white/75 backdrop-blur-md rounded-xl border border-blue-200/50 shadow-lg px-6 sm:px-10 py-8">
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-            Ready to discuss a project, partnership or job opportunity? Get in touch
-            using the details below or send us a message.
+            Ready to discuss a project or partnership? Get in touch using the details below or send us a message.
           </p>
         </motion.div>
 
@@ -51,14 +49,8 @@ function Contact() {
             <div className="space-y-4 text-gray-700">
               <p>
                 Email:{' '}
-                <a href="mailto:info@aadhyatech.com" className="text-blue-600 hover:text-blue-700 transition-colors">
-                  info@aadhyatech.com
-                </a>
-              </p>
-              <p>
-                Careers:{' '}
-                <a href="mailto:careers@aadhyatech.com" className="text-blue-600 hover:text-blue-700 transition-colors">
-                  hr@aadhyatech.com
+                <a href="mailto:info@aadhyatech.co.uk" className="text-blue-600 hover:text-blue-700 transition-colors">
+                  info@aadhyatech.co.uk
                 </a>
               </p>
               <p>Phone: +44 7376 472095</p>
@@ -121,7 +113,6 @@ function Contact() {
             </form>
           </motion.div>
         </div>
-        <Careers />
         <OfficesSection />
       </div>
     </motion.main>
