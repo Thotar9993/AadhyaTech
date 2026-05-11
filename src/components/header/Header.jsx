@@ -105,7 +105,7 @@ function Header() {
             </div>
           )}
         </div>
-        <Link to="/our-team" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-white px-2 py-1 rounded transition-all duration-200 hover:bg-white/10 hover:underline">Leadership Team</Link>
+        <Link to="/our-team" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-white px-2 py-1 rounded transition-all duration-200 hover:bg-white/10 hover:underline">Who We Are</Link>
         <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="text-white px-2 py-1 rounded transition-all duration-200 hover:bg-white/10 hover:underline">Contact Us</Link>
       </nav>
 
@@ -206,7 +206,7 @@ function Header() {
               </div>
             )}
           </div>
-          <Link to="/our-team" onClick={() => { closeMobileMenu(); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className="px-3 py-2 rounded hover:bg-white/10">Leadership Team</Link>
+          <Link to="/our-team" onClick={() => { closeMobileMenu(); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className="px-3 py-2 rounded hover:bg-white/10">Who We Are</Link>
           <Link to="/contact" onClick={() => { closeMobileMenu(); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className="px-3 py-2 rounded hover:bg-white/10">Contact Us</Link>
         </nav>
       </aside>

@@ -25,9 +25,8 @@ const Team = () => {
       expertise: ['Software Development', 'Cloud Solutions', 'Digital Transformation', 'AI & Automation', 'Strategic Leadership'],
       achievements: [
         'Founded Aadhya Tech with a vision to innovate and scale',
-        'Led successful digital transformation initiatives for 50+ organizations',
-        'Microsoft Gold Partner certification holder',
-        'Salesforce Consulting Partner'
+        'Led successful digital transformation initiatives for 10+ organizations',
+        'Salesforce Developer and Consultant Certified'
       ]
     },
     // {
@@ -69,7 +68,7 @@ const Team = () => {
           variants={cardVariants}
           className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400"
         >
-          Our Team
+          Who Am I
         </motion.h1>
         <motion.div
           variants={cardVariants}
