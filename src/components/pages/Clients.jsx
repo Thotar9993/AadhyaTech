@@ -14,11 +14,6 @@ export const CLIENTS_DATA = [
     logo: ibexLogo,
   },
   {
-    name: 'Neo Technology',
-    description: 'Technology solutions and services company.',
-    logo: neoTechLogo,
-  },
-  {
     name: 'Saasphire',
     description: 'SaaS-focused product and platform company.',
     logo: saasphireLogo,
